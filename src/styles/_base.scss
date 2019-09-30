@@ -1,34 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap");
 
 *,
 *::before,
 *::after {
-	padding: 0;
-	margin: 0;
-	box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
 }
 
 html {
-	box-sizing: border-box;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 62.5%;
-	background-color: #c5dae1;
-	color: #445c64;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 62.5%;
+  background-color: #c5dae1;
+  color: #445c64;
 }
 
 .heading-primary {
-	font-size: 10rem;
-	font-weight: 300;
+  font-size: 10rem;
+  font-weight: 300;
 }
 
 .heading-secondary {
-	font-size: 7rem;
-	font-weight: 300;
+  font-size: 7rem;
+  font-weight: 300;
 }
 
-.logo {
-	width: 20rem;
-	display: block;
-	border-radius: 50%;
-	padding-bottom: 1rem;
+.icon {
+  width: 20rem;
+  display: block;
+  padding-bottom: 1rem;
 }
