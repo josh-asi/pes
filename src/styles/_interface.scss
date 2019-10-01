@@ -1,35 +1,36 @@
 .interface {
-	&__header {
-		text-align: center;
-		margin-top: 4rem;
-		margin-bottom: 10rem;
-	}
+  &__header {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+  }
 
-	&__logo {
-		width: 37rem;
-		margin-bottom: 1rem;
-	}
+  &__logo {
+    width: 37rem;
+    margin-bottom: 1rem;
+  }
 
-	&__apps {
-		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-	}
+  &__apps {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
-	&__app {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+  &__app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 
-		text-decoration: none;
-		color: inherit;
-		font-size: 1.6rem;
-		font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    font-size: 5.6rem;
+    font-weight: 600;
 
-		&--games {
-			img {
-				margin: 2.5rem 0;
-			}
-		}
-	}
+    &--games {
+      img {
+        margin: 2.5rem 0;
+      }
+    }
+  }
 }
