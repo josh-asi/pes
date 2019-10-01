@@ -12,6 +12,8 @@
 
   &__apps {
     display: flex;
+    flex-wrap: wrap;
+
     justify-content: space-evenly;
     align-items: center;
   }
@@ -19,7 +21,6 @@
   &__app {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
 
     text-decoration: none;
