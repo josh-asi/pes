@@ -1,0 +1,51 @@
+.landing {
+  overflow-y: auto;
+  height: 100vh;
+
+  &__header {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  &__logo {
+    width: 37rem;
+    margin-bottom: 1rem;
+  }
+
+  &__terms {
+    font-size: 1.6rem;
+    background-color: white;
+    height: 57vh;
+    width: 80vw;
+    margin: 0 10vw;
+    padding: 1rem 2rem;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.185);
+  }
+
+  &__content {
+    height: 70%;
+    overflow-y: auto;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  &__actions {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  &__accept {
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: #c5dae1;
+    color: black;
+    padding: 0.5rem 0;
+    width: 10rem;
+    border-radius: 20px;
+    text-align: center;
+  }
+}
