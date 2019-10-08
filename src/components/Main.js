@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import wdhbLogo from "../media/WDHB_Logo.svg";
@@ -6,7 +6,14 @@ import tvIcon from "../media/retro-tv.svg";
 import musicIcon from "../media/music-solid.svg";
 import diceIcon from "../media/dice-solid.svg";
 
-const Main = () => {
+const Main = ({ history }) => {
+  useEffect(() => {
+    if (localStorage.getItem("tcAccepted") !== "true") {
+      history.push("/");
+    }
+    return () => {};
+  }, [history]);
+
   return (
     <main className="interface">
       <header className="interface__header">
